@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+  @apply bg-gradient-to-t from-gray-700 via-gray-900 to-black;
+  @apply text-white;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-[#aa00e9] via-[#6b4ef9] to-[#2c50f1] bg-clip-text text-transparent;
+}
+
+.gradient-hover:hover {
+  @apply bg-gradient-to-r from-[#aa00e9] via-[#6b4ef9] to-[#2c50f1] bg-clip-text text-transparent;
+}
